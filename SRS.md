@@ -1,5 +1,5 @@
 # Software Requirements Specification
-## Srvnávač dat
+## Vyhlelávač dat
 Verze 1  
 Adam Majer 4.C  
 SSPŠ  
@@ -51,21 +51,35 @@ S ohledem na typ programu, procházení dat, bude jen jeden ty uživatele který
   ### 2.3 Detaily, motivace, příklady
 Cílem je zhotovení programu, který bude shopen načítat data z internetu dokáže se v nich vyznat a bude si schopen zapamtovat poslodní vyhledané data. Vytvořené tedy bude přehledné menu na vyhledávaní dat, ale i část zobrazující vyhledané data a paměť na tyto data.
   ### 2.4 Vymezení rozsahu, co v sw Nebude
-  
+Program nebude obsahovat:
+  * kopletní knihonu při ztrátě internetu.
+    * program si bude pomatovat poslední vyhledáné data, při ztrátě internetu, ne celou knihovnu.
+  * uložiště na vyhledáná data
+    * program si nebude pomatovat a nebudete si možné ukládat předchozí vyhledaná data.   
+  * shopnost projíždení bez specifického hledání
+    * program bude fungovat na bází hledání specifických dat ne projíždění knihovny.
+  * uživatelská nastavení
+    * program nebude nějak kastomizovatlný při spuštění programu pokut chcete změnit vizulizaci program k prosm kontaktujte mě a domluvíme se.
   ### 2.5 Na co se nebude klást důraz
+Nebude se klást důraz na:
+  * design aplikace 
+  * optimalizace kodu
+  * rychlost a responzivita
+    * program se bude snažit docílit určitých norem, ale nebude se bát je překročit, kvůli funkčnosti.
   
 ## 3. Celková hrubá archytektura
   ### 3.1 Pracovní tok
-
+Pracovní postup začne při vizuální částí programu, které by měla zabrat nejmíň času, to znamená vytvoření způsobu vložezní žádosti o data a i jeho zobrazení. Pokud tato část bude funkční. Začne se pracovat na propojení s internetem (a právě se sránkou https://api.nasa.gov/). Po spojení se zažne pracovat na spojení vizuální a internetovou částí, které musí být scela funkční a ke konci se teprve začne pracovat na paměti.
   ### 3.2 Hlavní moduly
-
+Aplikace bude jednoduché okno kde si uživatel bude moc vyhledat data. Pokud uživatel vyhledá nějaká data data se mu zobrazí na stejném okně. Uživatel bude muset vyhledat nové informace pro změnu zobrazených informací. 
   ### 3.3 Všechny detaily obrazovky, okna, tisky, chybové zprávy, logování
-  
+Hlavní okno a jeho časti budou zhotovení pomocí Windows Presentation Foundation a celý program bude napsaný v jazyce C#
   ### 3.4 Všechny možné toky programu a jejich projevy
-  
+Program by měl být ve své věcnosti pouze vyhledání určitýh dat z internetu (právě ze sránky https://api.nasa.gov/), k vyhledaným datům by neměl uživatel ztratit přístup i při ztrátě internetu.
   ### 3.5 Všechny dohodnuté principy
-
+Dohodnuté principy jsou takové že program musí obsahot způsob jak data vyhledat a také způsob jak dat zobrazit. Následně zobrazená data nesmí zmizet při ztrátě k internetu.
 ## 4. Otevřené otázky
   ### 4.1 Části, na kterých se zatím nedosáhlo shody
-  
+Krom částí funkčnosti programu a funkce vyhledávání nebylo projednáno nic konkrétnějšího. Možnosti probgramu zmíněné výše budou ještě diskutovány a popřípadě změny bude tento dokumen tupraven aby korespondoval s myšlenkou a požadavky zákazníka programu
   ### 4.2 Poznámka pro realizaci
+Realizace bude náročná, je třeba propojit program s internetem a stránkou ze které má brát data, poté prostředí a způsob pro jednoduché vyhledávání dat, program bude také muset zobrazovat vyhledaná data a na závěr určitá dat neztrácet při odpojení k internetovému připojení
