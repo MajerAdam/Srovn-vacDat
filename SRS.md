@@ -34,12 +34,13 @@ Table of Contents
   ### 1.1 Účel
 Cílem je vytvoření programu, který bude brát data z internetu (právě ze sránky https://api.nasa.gov/). Data budou ve formě obrázků a klient je bude moc jednoduše vyhledat pomocí programu. Při připojení k internet bude program načítat nejnovější obrázky. Pokud program ztatí připojení k internetyu bude je načítat z paměti.
   ### 1.2 Konvence Dokumentu
-Dokument slouží k vymězení vlastností programu, které jsou  vyžadáné zákazníkem, aby nenastaly nedorozumění.
+Dokument slouží k vymězení vlastností programu, které jsou  vyžadáné zákazníkem, aby nenastaly nedorozumění mezi zákazníkem a programátorem. 
   ### 1.3 Cílová skupina
-Program je tvořen pro vášnívce vesmíru, kteří se chtějí kouknout na různé obrázky, které nasa zveřejňuje.
+Program je tvořen pro vášnívce vesmíru, kteří se chtějí kouknout na různé obrázky, které nasa zveřejňuje. Pro lidi co mají nějaký ponětí co po programu budeou chtít, pokud člověk nebude mít alespoň tušení po čem touží při používání aplikace, pravděpodobně bude sklamán
   ### 1.4 Odkazy na ostatní dokumenty
 * FS: https://github.com/MajerAdam/Srovn-vacDat/blob/main/FS.md
   ### 1.5 Kontakty
+  
 * source dat: https://api.nasa.gov/
 * email: majer.ad.2019@skola.ssps
 * tel.: +420 606 971 015
@@ -48,13 +49,13 @@ Program je tvořen pro vášnívce vesmíru, kteří se chtějí kouknout na rů
   ### 2.1 Produkt jako celek
   Product bude bude WPF aplikace. 
   ### 2.2 Funkce
-  Aplikace bude mít search bar pomocí, kterého se profiltruje datábáze a poté se podle toho najde list možností, ze kterých si budete moci vybrat.
+  Aplikace bude mít search bar pomocí, kterého se profiltruje datábáze a poté se podle toho najde list možností, ze kterých si budete moci vybrat. Dota se poté budou     ukazovat a uživatel je bude muc zaměňovat pomocí vybírání si v listu. 
   ### 2.3 Uživatelské skupiny
-  Není potřeba rozděli uživatele do skupin, všichni budou mít stejná opravnění.
+  Není potřeba rozděli uživatele do skupin, všichni budou mít stejná opravnění. Uživatel bude mít pístup ke všem funkčnostím aplikace.
   ### 2.4 Provozní prostředí
-  PC zatím, možná expanze na mobilní platformy.
+  PC zatím, možná expanze na mobilní platformy. První se bude prioritizovat funkčnost na PC.
   ### 2.5 Uživatelské prostředí
-  windows presentation foundation
+  Windows presentation foundation
   ### 2.6 Omezení návrhu a implementace
   Pro funkci programu bude za potřeba pipojení k internetu a malé využití CPI. Zárověň taky bude zaujímat malou část paměti.
 ## 3. Požadavky na rozhraní
