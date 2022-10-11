@@ -37,7 +37,7 @@ Dokument slouží k vymězení vlastností programu, které jsou  vyžadáné z�
   ### 1.3 Pro koho je dokument určený
 Dokument je určený jak pro tvůrce programu tak i pro zákazníka. Slouží k vytvoření stejné myšlenky, v obou stranách, to znamená programátora a zákazníka. Budou zde uvedeny informace, jak zhotovený sofware bude vypadat, čeho bude schopný a čeho schopný nebude. Tento dokument také tvoří základ pro tvorbu práce a je možno na něj odkazovat v případě nespokojenosti.
   ### 1.4 Odkazy na ostatní dokumenty
-
+* FS: https://github.com/MajerAdam/Srovn-vacDat/blob/main/FS.md
   ### 1.5 Kontakty
 * source dat: https://api.nasa.gov/
 * email: majer.ad.2019@skola.ssps
