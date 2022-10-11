@@ -1,4 +1,4 @@
-# Software Requirements Specification
+# Funkční specifikace
 ## Vyhlelávač dat
 Verze 1  
 Adam Majer 4.C  
