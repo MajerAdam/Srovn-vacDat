@@ -3,10 +3,9 @@
 Verze 2  
 Adam Majer 4.C  
 SSPŠ  
-4-th of October 2022  
+11.10 2022  
+změna: Přepsání většiny dokumentu aby se nepodoba FS.
 
-## Změna 
-Přepsání většiny dokumentu aby se nepodoba FS.
 Table of Contents
 ================
 * 1 [Úvod](#1-úvod)
