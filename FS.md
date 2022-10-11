@@ -70,8 +70,14 @@ Nebude se klást důraz na:
 ## 3. Celková hrubá architektura
   ### 3.1 Pracovní tok
 Pracovní postup začne při vizuální částí programu, které by měla zabrat nejmíň času, to znamená vytvoření způsobu vložení žádosti (search bar) o data a i jeho zobrazení. Pokud tato část bude funkční. Začne se pracovat na propojení s internetem (a právě se sránkou https://api.nasa.gov/). Po spojení se zažne pracovat na spojení vizuální a internetovou částí, které musí být zcela funkční a ke konci se teprve začne pracovat na paměti.
+
+![image](https://user-images.githubusercontent.com/97035550/195087874-1c067e4a-5177-40f7-92bd-862d67ac5e44.png)
+
   ### 3.2 Hlavní moduly
 Aplikace bude jednoduché okno kde si uživatel bude moc vyhledat data. Pokud uživatel vyhledá nějaká data se mu zobrazí na stejném okně. Uživatel bude muset vyhledat nové informace pro změnu zobrazených informací. 
+
+![image](https://user-images.githubusercontent.com/97035550/195091415-de36b738-1fe2-40bb-b161-41cffdc71ce3.png)
+
   ### 3.3 Všechny detaily obrazovky, okna, tisky, chybové zprávy, logování
 Hlavní okno a jeho časti budou zhotovení pomocí Windows Presentation Foundation a celý program bude napsaný v jazyce C#
   ### 3.4 Všechny možné toky programu a jejich projevy
