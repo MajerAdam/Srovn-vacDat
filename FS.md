@@ -76,7 +76,7 @@ Pracovní postup začne při vizuální částí programu, které by měla zabra
   ### 3.2 Hlavní moduly
 Aplikace bude jednoduché okno kde si uživatel bude moc vyhledat data. Pokud uživatel vyhledá nějaká data se mu zobrazí na stejném okně. Uživatel bude muset vyhledat nové informace pro změnu zobrazených informací. 
 
-![image](https://user-images.githubusercontent.com/97035550/195091415-de36b738-1fe2-40bb-b161-41cffdc71ce3.png)
+![image](https://user-images.githubusercontent.com/97035550/195100209-540e029d-26c5-4650-8a81-24149c9772fc.png)
 
   ### 3.3 Všechny detaily obrazovky, okna, tisky, chybové zprávy, logování
 Hlavní okno a jeho časti budou zhotovení pomocí Windows Presentation Foundation a celý program bude napsaný v jazyce C#
