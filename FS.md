@@ -69,7 +69,7 @@ Nebude se klást důraz na:
   
 ## 3. Celková hrubá archytektura
   ### 3.1 Pracovní tok
-Pracovní postup začne při vizuální částí programu, které by měla zabrat nejmíň času, to znamená vytvoření způsobu vložezní žádosti o data a i jeho zobrazení. Pokud tato část bude funkční. Začne se pracovat na propojení s internetem (a právě se sránkou https://api.nasa.gov/). Po spojení se zažne pracovat na spojení vizuální a internetovou částí, které musí být scela funkční a ke konci se teprve začne pracovat na paměti.
+Pracovní postup začne při vizuální částí programu, které by měla zabrat nejmíň času, to znamená vytvoření způsobu vložení žádosti (search bar) o data a i jeho zobrazení. Pokud tato část bude funkční. Začne se pracovat na propojení s internetem (a právě se sránkou https://api.nasa.gov/). Po spojení se zažne pracovat na spojení vizuální a internetovou částí, které musí být scela funkční a ke konci se teprve začne pracovat na paměti.
   ### 3.2 Hlavní moduly
 Aplikace bude jednoduché okno kde si uživatel bude moc vyhledat data. Pokud uživatel vyhledá nějaká data data se mu zobrazí na stejném okně. Uživatel bude muset vyhledat nové informace pro změnu zobrazených informací. 
   ### 3.3 Všechny detaily obrazovky, okna, tisky, chybové zprávy, logování
