@@ -32,13 +32,13 @@ Table of Contents
 
 ## 1. Úvod 
   ### 1.1 Účel
-Cílem je vytvoření programu, který bude brát data z internetu (právě ze sránky https://api.nasa.gov/). Data budou ve formě obrázků a klient je bude moc jednoduše vyhledat pomocí programu. Při připojení k internet bude program načítat nejnovější obrázky. Pokud program ztatí připojení k internetyu bude je načítat z paměti.
+Cílem je vytvoření programu, který bude brát data z internetu (právě ze stránky https://api.nasa.gov/). Data budou ve formě obrázků a klient je bude moc jednoduše vyhledat pomocí programu. Při připojení k internet bude program načítat nejnovější obrázky. Pokud program ztratí připojení k internetu bude je načítat z paměti.
   ### 1.2 Konvence Dokumentu
-Dokument slouží k vymězení vlastností programu, které jsou  vyžadáné zákazníkem, aby nenastaly nedorozumění mezi zákazníkem a programátorem. 
+Dokument slouží k vymezení vlastností programu, které jsou vyžádané zákazníkem, aby nenastaly nedorozumění mezi zákazníkem a programátorem. 
   ### 1.3 Cílová skupina
-Program je tvořen pro vášnívce vesmíru, kteří se chtějí kouknout na různé obrázky, které nasa zveřejňuje. Pro lidi co mají nějaký ponětí co po programu budeou chtít, pokud člověk nebude mít alespoň tušení po čem touží při používání aplikace, pravděpodobně bude sklamán
+Program je tvořen pro vášnivce vesmíru, kteří se chtějí kouknout na různé obrázky, které NASA zveřejňuje. Pro lidi co mají nějaký ponětí, co po programu budou chtít, pokud člověk nebude mít alespoň tušení po čem touží při používání aplikace, pravděpodobně bude zklamán.
   ### 1.4 Odkazy na ostatní dokumenty
-* FS: https://github.com/MajerAdam/Srovn-vacDat/blob/main/FS.md
+FS: https://github.com/MajerAdam/Srovn-vacDat/blob/main/FS.md
   ### 1.5 Kontakty
   
 * source dat: https://api.nasa.gov/
@@ -47,11 +47,11 @@ Program je tvořen pro vášnívce vesmíru, kteří se chtějí kouknout na rů
 
 ## 2. Celkový popis
   ### 2.1 Produkt jako celek
-  Product bude bude WPF aplikace. 
+  Produkt bude tvořen ve WPF aplikace. 
   ### 2.2 Funkce
-  Aplikace bude mít search bar pomocí, kterého se profiltruje datábáze a poté se podle toho najde list možností, ze kterých si budete moci vybrat. Dota se poté budou     ukazovat a uživatel je bude muc zaměňovat pomocí vybírání si v listu. 
+  Aplikace bude mít search bar pomocí, kterého se profiltruje databáze a poté se podle toho najde list možností, ze kterých si budete moci vybrat. Data se poté budou     ukazovat a uživatel je bude muci zaměňovat pomocí vybírání si v listu. 
   ### 2.3 Uživatelské skupiny
-  Není potřeba rozděli uživatele do skupin, všichni budou mít stejná opravnění. Uživatel bude mít pístup ke všem funkčnostím aplikace.
+  Není potřeba rozdělit uživatele do skupin, všichni budou mít stejná oprávnění. Uživatel bude mít přístup ke všem funkčnostem aplikace.
   ### 2.4 Provozní prostředí
   PC zatím, možná expanze na mobilní platformy. První se bude prioritizovat funkčnost na PC.
   ### 2.5 Uživatelské prostředí
@@ -60,16 +60,16 @@ Program je tvořen pro vášnívce vesmíru, kteří se chtějí kouknout na rů
   Pro funkci programu bude za potřeba pipojení k internetu a malé využití CPI. Zárověň taky bude zaujímat malou část paměti.
 ## 3. Požadavky na rozhraní
   ### 3.1 Uživatelská rozhraní
-  Provozní prostředí se bude odehrávet všechno na jednom panelu. Na něm bude serchbar, otevřou se tam obrázky a i se tam bude ukazovat list možností provýběr z dat.
+  Provozní prostředí se bude odehrávat všechno na jednom panelu. Na něm bude serchbar, otevřou se tam data a i se tam bude ukazovat list možností provýběr z dat.
   ### 3.2 Hardwarová rozhraní
   N/A
   ### 3.3 Softwarová rozhraní 
   N/A
 ## 4. Vlastnosti systému
   ### 4.1 Search bar 
-  Pomicí něj se budou vyhledávat data, který si bude zákazník chtít zobrazit. Měl by být schopen přijmout i nedokončené informace a být schopen najít list možností pro   aplikaci.
+  Pomocí něj se budou vyhledávat data, který si bude zákazník chtít zobrazit. Měl by být schopen přijmout i nedokončené informace a být schopen najít list možností pro   aplikaci.
   ### 4.2 List
-  Pokud je Search bar prázný list bude schovaný. V tu chvíly co se něco napíše do něj něco napíše. List se zviditelní a ukáže možnosti ze kterých si pak můžeme vybrat   a rozhodnout se jaký znich si chceme prohlédnout
+  Pokud je Search bar prázdný list bude schovaný. V tuto chvíli co se něco napíše do něj něco napíše. List se zviditelní a ukáže možnosti ze kterých si pak můžeme vybrat a rozhodnout se jaký z nich si chceme prohlédnout
   ### 4.2 View
-  Když je z dat vybranná image. Imige se zobrazí pro naše prohlidnutí. Tuto image budeme moc kdikoli změnit pokud klikneme na jíná data v listu.
+  Když je z dat vybraná image. Imige se zobrazí pro naše prohlédnutí. Tuto image budeme moc kdykoli změnit, pokud klikneme na jiná data v listu.
 
